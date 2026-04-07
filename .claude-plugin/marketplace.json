@@ -1,0 +1,1268 @@
+{
+  "$schema": "https://claude.com/schemas/plugin-marketplace/v1.json",
+  "version": "1.0",
+  "name": "myClaude Marketplace",
+  "description": "The marketplace for the Claude Code ecosystem. The only marketplace with Stripe Connect payments — creators keep 92% of revenue. 12 product categories: skills, squads, agents, workflows, design systems, bundles, CLAUDE.md templates, applications, systems, status lines, hooks, and minds.",
+  "url": "https://www.myclaude.sh",
+  "homepage": "https://www.myclaude.sh",
+  "repository": "https://github.com/myclaude-sh/registry",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "myClaude",
+      "url": "https://www.myclaude.sh",
+      "email": "hello@myclaude.sh"
+    }
+  ],
+  "links": {
+    "website": "https://www.myclaude.sh",
+    "explore": "https://www.myclaude.sh/explore",
+    "docs": "https://www.myclaude.sh/docs",
+    "llms_txt": "https://www.myclaude.sh/llms.txt",
+    "llms_full_txt": "https://www.myclaude.sh/llms-full.txt",
+    "agent_card": "https://www.myclaude.sh/.well-known/agent.json",
+    "api": "https://www.myclaude.sh/api/public/search",
+    "openapi": "https://www.myclaude.sh/specs/openapi.yaml"
+  },
+  "cli": {
+    "package": "@myclaude-cli/cli",
+    "install": "npm install -g @myclaude-cli/cli",
+    "commands": {
+      "search": "myclaude search \"<keyword>\"",
+      "install": "myclaude install @<creator>/<product>",
+      "publish": "myclaude publish",
+      "info": "myclaude info @<creator>/<product>"
+    }
+  },
+  "plugins": [
+    {
+      "name": "agent-orchestration-skill",
+      "display_name": "Agent Orchestration Skill",
+      "description": "Prevents context window explosion in multi-agent squads. Generates compact handoff artifacts (~379 tokens), enforces token budgets, and provides compaction-vs-handoff decision trees.",
+      "version": "1.0.0",
+      "author": "betty_bonaparte",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/agent-orchestration-skill"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "context-management",
+        "handoff",
+        "token-optimization"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/agent-orchestration-skill",
+      "price": 9.99,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "supreme-project-management-squad-mnnxoe36cu3",
+      "display_name": "Supreme-Project-Management-Squad",
+      "description": "NASA teams don't fail because each individual is excellent. F1 teams win because every millisecond is optimized. This squad is both.",
+      "version": "1.0.0",
+      "author": "george_moreira",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/supreme-project-management-squad-mnnxoe36cu3"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "#create-prd",
+        "#status",
+        "#sprint-health",
+        "#posture-check",
+        "#Architecture",
+        "#Cognitive DNA",
+        "#Security",
+        "#Scalability",
+        "#Tooling"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/supreme-project-management-squad-mnnxoe36cu3",
+      "price": 10.97,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "mae-intuitiva-crm",
+      "display_name": "Mãe Intuitiva CRM",
+      "description": "CRM inteligente para gestão de leads e agentes IA — Mãe Intuitiva",
+      "version": "1.0.0",
+      "author": "heimovski",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/mae-intuitiva-crm"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "crm",
+        "saas",
+        "whatsapp",
+        "leads",
+        "infoprodutos"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/mae-intuitiva-crm",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 5,
+      "rating": 0
+    },
+    {
+      "name": "k8s-security-advisor",
+      "display_name": "K8s Security Advisor",
+      "description": "A senior Kubernetes security intelligence that thinks in attack paths — not checklists. Covers supply chain, runtime detection, RBAC, network policies, incident response, and compliance mapping.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/k8s-security-advisor"
+      },
+      "install": {
+        "type": "mind",
+        "category": "minds"
+      },
+      "tags": [
+        "kubernetes",
+        "security",
+        "k8s",
+        "devops",
+        "devsecops",
+        "minds",
+        "advisory",
+        "deep-intelligence"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/k8s-security-advisor",
+      "price": 15,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "paid-traffic-intelligence-squad-mnhme7g91ij",
+      "display_name": "Paid Traffic Intelligence Squad",
+      "description": "10 specialized agents analyze your Google Ads and Meta Ads campaigns following a 10-step framework drawn from 6 years of real-world traffic management",
+      "version": "1.0.0",
+      "author": "jonh_wilian_dr",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/paid-traffic-intelligence-squad-mnhme7g91ij"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "paid traffic",
+        "marketing",
+        "paid media",
+        "media buyer",
+        "google ads",
+        "meta ads",
+        "tik tok ads",
+        "ads",
+        "offer",
+        "funnel"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/paid-traffic-intelligence-squad-mnhme7g91ij",
+      "price": 9.99,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "marketing-squad-direct-response-copywriting-mnhlj9pu577",
+      "display_name": "Marketing Squad — Direct Response Copywriting",
+      "description": "9 AI copywriting agents modeled after legendary direct response marketers. Each agent carries the personality, frameworks, mental models and more :)",
+      "version": "1.0.0",
+      "author": "jonh_wilian_dr",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/marketing-squad-direct-response-copywriting-mnhlj9pu577"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "claude-code",
+        "squads",
+        "direct response",
+        "direct response marketing",
+        "vsl",
+        "pre-sell",
+        "ads",
+        "offer",
+        "funnel",
+        "marketing"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/marketing-squad-direct-response-copywriting-mnhlj9pu577",
+      "price": 14.99,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "meeting-intel",
+      "display_name": "Meeting Intel",
+      "description": "Intelligent meeting transcript analysis system — reads transcriptions, extracts insights, and generates precise reports tailored for HR, legal, finance, operations, or general audiences.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/meeting-intel"
+      },
+      "install": {
+        "type": "system",
+        "category": "systems"
+      },
+      "tags": [
+        "meetings",
+        "transcripts",
+        "reports",
+        "HR",
+        "legal",
+        "finance",
+        "analysis",
+        "intelligence",
+        "productivity"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/meeting-intel",
+      "price": 2,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "linkedin-squad-mngjcumjocz",
+      "display_name": "LinkedIn Squad",
+      "description": "Squad para gestão de presença no LinkedIn: análise de tendências, geração de conteúdo, otimização de perfil e estratégia de personal branding.",
+      "version": "1.0.0",
+      "author": "f0livora",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/linkedin-squad-mngjcumjocz"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "claude-code",
+        "aiox",
+        "linkedin",
+        "analytics"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/linkedin-squad-mngjcumjocz",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 3,
+      "rating": 0
+    },
+    {
+      "name": "just-statusline-vol1",
+      "display_name": "Just Statusline Vol 1",
+      "description": "10 premium statusline themes for Claude Code — NERV, Toxic, Minimal, Hacker, Neon, Pixel, Matrix, Pokemon, Minecraft, Space. True Color RGB gradients, Unicode art, state-of-the-art terminal visuals.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/just-statusline-vol1"
+      },
+      "install": {
+        "type": "statusline",
+        "category": "statusline"
+      },
+      "tags": [
+        "statusline",
+        "theme",
+        "terminal",
+        "customization",
+        "unicode",
+        "rgb"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/just-statusline-vol1",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 4,
+      "rating": 0
+    },
+    {
+      "name": "eva-genesis",
+      "display_name": "Eva Genesis",
+      "description": "Canon-accurate Evangelion design system — 6 EVA unit themes, NERV HQ interfaces, MAGI voting, AT Field effects, Pattern Blue alerts, 15 components, 80+ OKLCH.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/eva-genesis"
+      },
+      "install": {
+        "type": "design-system",
+        "category": "design-systems"
+      },
+      "tags": [
+        "design-system",
+        "dark-mode",
+        "evangelion",
+        "nerv",
+        "brutalist",
+        "tokens",
+        "tailwind",
+        "oklch",
+        "themes",
+        "anime"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/eva-genesis",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 15,
+      "rating": 0
+    },
+    {
+      "name": "hr-recruit-ai",
+      "display_name": "Hr Recruit Ai",
+      "description": "Smart recruitment toolkit — screens resumes, generates job descriptions, builds interview question banks, and drafts candidate communications. Bias-aware and compliance-conscious.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/hr-recruit-ai"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "hr",
+        "recruitment",
+        "hiring",
+        "interview",
+        "screening"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/hr-recruit-ai",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 11,
+      "rating": 0
+    },
+    {
+      "name": "hr-performance",
+      "display_name": "Hr Performance",
+      "description": "Assists with performance reviews, feedback writing, 360 synthesis, goal-setting (OKR/SMART), and individual development plans. Bias-aware with SBI feedback model.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/hr-performance"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "hr",
+        "performance",
+        "reviews",
+        "feedback",
+        "goals",
+        "okr"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/hr-performance",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 11,
+      "rating": 0
+    },
+    {
+      "name": "hr-onboard-pro",
+      "display_name": "Hr Onboard Pro",
+      "description": "Generates complete, region-aware onboarding checklists for new hires — pre-boarding through 90-day milestones, with manager guides and compliance tracking.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/hr-onboard-pro"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "hr",
+        "onboarding",
+        "compliance",
+        "people-ops",
+        "management"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/hr-onboard-pro",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 11,
+      "rating": 0
+    },
+    {
+      "name": "hr-compliance-docs",
+      "display_name": "Hr Compliance Docs",
+      "description": "Generates jurisdiction-aware HR documents — offer letters, contracts, termination packages, policy templates, and labor calculations — with compliance guardrails for US, EU, UK, Brazil, Canada, Australia.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/hr-compliance-docs"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "hr",
+        "compliance",
+        "legal",
+        "contracts",
+        "termination",
+        "labor-law"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/hr-compliance-docs",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 11,
+      "rating": 0
+    },
+    {
+      "name": "hr-communicator",
+      "display_name": "Hr Communicator",
+      "description": "Generates professional HR internal communications — emails, Slack messages, FAQs, and manager briefs — from simple inputs. Adapts to any region and organizational culture.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/hr-communicator"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "hr",
+        "communication",
+        "management",
+        "people-ops",
+        "compliance"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/hr-communicator",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 11,
+      "rating": 0
+    },
+    {
+      "name": "zero-to-one",
+      "display_name": "$0-to-1 Squad — Idea to First Dollar",
+      "description": "$0-to-1 Squad — 34 agents, 47 skills, 16 workflows. Validated idea-to-first-revenue pipeline for solo founders. 30+ embedded frameworks with 50+ supporting heuristics from Graham, Hormozi, Thiel, Ellis, McClure, Bezos.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/zero-to-one"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "solo-founder",
+        "idea-validation",
+        "first-revenue",
+        "ai-startup",
+        "business-frameworks",
+        "launch-system",
+        "product-market-fit",
+        "claude-code"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/zero-to-one",
+      "price": 49.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "synthetic-intelligence-factory",
+      "display_name": "Synthetic Intelligence Factory",
+      "description": "Meta-system that manufactures specialized AI intelligences from any professional domain. 7-layer cognitive architecture engineering with systematic expertise distillation.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/synthetic-intelligence-factory"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "meta-system",
+        "prompt-engineering",
+        "cognitive-architecture",
+        "expertise-distillation",
+        "synthetic-intelligence",
+        "claude-code"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/synthetic-intelligence-factory",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 16,
+      "rating": 0
+    },
+    {
+      "name": "lozano-cognitive-architecture",
+      "display_name": "Lozano Cognitive Architecture",
+      "description": "Meta-squad for building AI systems with genuine cognitive identity. 7 agents, 28 techniques, 11 intellectual lineages.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/lozano-cognitive-architecture"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "cognitive-architecture",
+        "agent-design",
+        "prompt-engineering",
+        "identity-design",
+        "multi-agent",
+        "meta-cognition"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/lozano-cognitive-architecture",
+      "price": 99.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "la-bottega",
+      "display_name": "La Bottega",
+      "description": "6 cognitive agents modeled on Leonardo da Vinci's documented thinking patterns. Analogical reasoning, structural dissection, dialectical tension, deliberate incompleteness.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/la-bottega"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "thinking-quality",
+        "cross-domain-reasoning",
+        "compound-memory",
+        "structural-analysis",
+        "problem-solving",
+        "claude-code"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/la-bottega",
+      "price": 59.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "kairo-synthetic-reasoning",
+      "display_name": "Kairo Synthetic Reasoning",
+      "description": "7-pillar cognitive architecture for rigorous analysis and decision-making under uncertainty. 9 agents with inter-pillar data contracts, conflict resolution, and state persistence.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/kairo-synthetic-reasoning"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "reasoning-quality",
+        "argument-analysis",
+        "decision-making",
+        "critical-thinking",
+        "evidence-evaluation",
+        "claude-code"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/kairo-synthetic-reasoning",
+      "price": 29.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "context-engineering",
+      "display_name": "Context Engineering Arsenal",
+      "description": "Context Engineering Arsenal — 13 agents, 10 skills, 6 workflows. Architecture, auditing, token profiling, boot optimization, model routing, compression benchmarks.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/context-engineering"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "context-engineering",
+        "agent-memory",
+        "token-optimization",
+        "context-management",
+        "ai-agents",
+        "claude-code"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/context-engineering",
+      "price": 49.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "cognitive-fusion-lab",
+      "display_name": "Cognitive Fusion Lab",
+      "description": "Methodological system for engineering behavioral architectures through fusion of cognitive patterns extracted from real minds. 4-layer pipeline with 5 agents.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/cognitive-fusion-lab"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "cognitive-architecture",
+        "synthetic-consciousness",
+        "mind-fusion",
+        "cognitive-dna",
+        "prompt-engineering",
+        "transformer-mechanics"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/cognitive-fusion-lab",
+      "price": 29.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "strata",
+      "display_name": "Strata",
+      "description": "Universal methodology for transforming raw ideas into state-of-the-art artifacts through 6 layers of independent adversarial compression. Adaptive depth calibrates intensity to complexity.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/strata"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "creative-process",
+        "methodology",
+        "quality",
+        "adversarial-review",
+        "framework-design",
+        "ideation",
+        "validation"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/strata",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 15,
+      "rating": 0
+    },
+    {
+      "name": "launchpad-os",
+      "display_name": "Launchpad Os",
+      "description": "Complete launch operating system — orchestrates 5 products as one organism with compound memory that learns across every launch.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launchpad-os"
+      },
+      "install": {
+        "type": "system",
+        "category": "systems"
+      },
+      "tags": [
+        "launch",
+        "system",
+        "automation",
+        "memory",
+        "launchpad",
+        "premium"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launchpad-os",
+      "price": 5,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "unreal-forge-pro",
+      "display_name": "Unreal Forge bundle",
+      "description": "Complete AI-powered UE5 development ecosystem — concept to production C++ code with self-evolving intelligence",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/unreal-forge-pro"
+      },
+      "install": {
+        "type": "bundle",
+        "category": "bundle"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "c++",
+        "game-development",
+        "bundle",
+        "code-generation"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/unreal-forge-pro",
+      "price": 7,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "launchpad",
+      "display_name": "Launchpad bundle",
+      "description": "Complete AI-powered launch system for digital creators — from strategy to execution with 6 interconnected products",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launchpad"
+      },
+      "install": {
+        "type": "bundle",
+        "category": "bundle"
+      },
+      "tags": [
+        "launch",
+        "digital-creators",
+        "marketing",
+        "copywriting",
+        "automation",
+        "bundle"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launchpad",
+      "price": 7,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "dendrite",
+      "display_name": "Dendrite",
+      "description": "Biomimetic debug methodology — 7-phase system for finding root causes through Bayesian elimination, information-theoretic test selection, and cross-module immunity.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/dendrite"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "debug",
+        "root-cause",
+        "bayesian",
+        "debugging-methodology",
+        "fault-localization",
+        "biomimetic"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/dendrite",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 15,
+      "rating": 0
+    },
+    {
+      "name": "unreal-forge",
+      "display_name": "Unreal Forge",
+      "description": "4-phase pipeline converting game concepts into production UE5 C++ code",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/unreal-forge"
+      },
+      "install": {
+        "type": "system",
+        "category": "systems"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "c++",
+        "code-generation",
+        "game-development"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/unreal-forge",
+      "price": 5,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "ue5-game-dev-squad",
+      "display_name": "Ue5 Game Dev Squad",
+      "description": "8-agent expert team for UE5 development — Design, Architecture, VFX, Netcode, UI, Level, Performance",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/ue5-game-dev-squad"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "game-development",
+        "squad",
+        "code-review"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/ue5-game-dev-squad",
+      "price": 5,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "forge-evolve",
+      "display_name": "Unreal Forge Evolve",
+      "description": "Continuous improvement workflow — scan, detect, research, update, validate",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/forge-evolve"
+      },
+      "install": {
+        "type": "workflow",
+        "category": "workflows"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "continuous-improvement",
+        "automation"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/forge-evolve",
+      "price": 1,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "forge-learner",
+      "display_name": "unreal Forge Learner",
+      "description": "Adaptive learning agent that analyzes UE5 codebases, learns patterns, and evolves the knowledge base",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/forge-learner"
+      },
+      "install": {
+        "type": "agent",
+        "category": "agents"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "machine-learning",
+        "code-analysis",
+        "adaptive"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/forge-learner",
+      "price": 1,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "forge-knowledge",
+      "display_name": "unreal Forge Knowledge",
+      "description": "Knowledge base manager for UE5 patterns — indexes, searches, curates, and validates",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/forge-knowledge"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "knowledge-base",
+        "patterns"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/forge-knowledge",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 12,
+      "rating": 0
+    },
+    {
+      "name": "forge-scout",
+      "display_name": "unreal Forge Scout",
+      "description": "Research skill that searches GitHub, UE5 docs, and community resources for code patterns and solutions",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/forge-scout"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "unreal-engine",
+        "ue5",
+        "code-research",
+        "patterns"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/forge-scout",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 9,
+      "rating": 0
+    },
+    {
+      "name": "launch-sequence",
+      "display_name": "Launch Sequence",
+      "description": "Automated launch pipeline that orchestrates the entire LAUNCHPAD bundle — from brief to post-mortem — with quality gates between each step.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launch-sequence"
+      },
+      "install": {
+        "type": "workflow",
+        "category": "workflows"
+      },
+      "tags": [
+        "launch",
+        "workflow",
+        "automation",
+        "pipeline",
+        "launchpad"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launch-sequence",
+      "price": 1,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "launch-ops",
+      "display_name": "Launch Ops",
+      "description": "5-agent operations squad that orchestrates product launch execution — copy distribution, channel management, timeline enforcement, and performance tracking.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launch-ops"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "launch",
+        "operations",
+        "squad",
+        "marketing",
+        "launchpad"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launch-ops",
+      "price": 5,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "launch-strategist",
+      "display_name": "Launch Strategist",
+      "description": "Strategic launch advisor that reviews briefs, audits copy, diagnoses weaknesses, and recommends pivots in real-time.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launch-strategist"
+      },
+      "install": {
+        "type": "agent",
+        "category": "agents"
+      },
+      "tags": [
+        "launch",
+        "strategy",
+        "marketing",
+        "advisor",
+        "launchpad"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launch-strategist",
+      "price": 1,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "launch-copy",
+      "display_name": "Launch Copy",
+      "description": "Generates all launch copy assets from a brief — emails, landing page, ads, and social posts — using multi-master methodology.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launch-copy"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "launch",
+        "copywriting",
+        "marketing",
+        "emails",
+        "launchpad"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launch-copy",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 14,
+      "rating": 0
+    },
+    {
+      "name": "launch-brief",
+      "display_name": "Launch Brief",
+      "description": "Generates a complete, structured launch brief for any digital product — from idea to executable plan.",
+      "version": "1.0.0",
+      "author": "darwim",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/launch-brief"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "launch",
+        "strategy",
+        "marketing",
+        "creators",
+        "launchpad"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/launch-brief",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 12,
+      "rating": 0
+    },
+    {
+      "name": "radar-pro",
+      "display_name": "RADAR PRO — Full-Stack Website Audit",
+      "description": "RADAR PRO — 7-layer website audit with 72 checks across 50 pages. 5 parallel agents for Foundation, Discoverability, Comprehension, Citability, Conversion, Authority, Agent Readiness.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/radar-pro"
+      },
+      "install": {
+        "type": "squad",
+        "category": "squads"
+      },
+      "tags": [
+        "seo",
+        "website-audit",
+        "ai-readiness",
+        "conversion",
+        "authority",
+        "squad",
+        "claude-code"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/radar-pro",
+      "price": 39.9,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
+    {
+      "name": "radar-lite",
+      "display_name": "RADAR Lite — AI-Ready Website Audit",
+      "description": "RADAR Lite — 33-check website audit for AI visibility. Scores Foundation, Discoverability, Comprehension, Citability.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "MIT",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/radar-lite"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "seo",
+        "geo",
+        "audit",
+        "ai-readiness",
+        "website"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/radar-lite",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 18,
+      "rating": 0
+    },
+    {
+      "name": "aegis",
+      "display_name": "Aegis",
+      "description": "Audit, fix, and harden any codebase for security vulnerabilities. STRIDE threat modeling, 300+ vulnerability patterns, 8 compliance frameworks, 5-dimension risk scoring, secure code transforms, and hardening configurations.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/aegis"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "security",
+        "audit",
+        "OWASP",
+        "STRIDE",
+        "compliance",
+        "SAST",
+        "hardening",
+        "devsecops"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/aegis",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 23,
+      "rating": 0
+    },
+    {
+      "name": "five-vitals",
+      "display_name": "Five Vitals",
+      "description": "Diagnose any system against 5 universal structural signals. Get a scorecard (0-10), identify gaps, and receive targeted prescriptions. Works on software, AI agents, organizations, knowledge bases, and workflows.",
+      "version": "1.0.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "http",
+        "url": "https://www.myclaude.sh/p/five-vitals"
+      },
+      "install": {
+        "type": "skill",
+        "category": "skills"
+      },
+      "tags": [
+        "diagnostic",
+        "audit",
+        "structural-integrity",
+        "health-check",
+        "scorecard",
+        "system-analysis",
+        "meta-principles"
+      ],
+      "marketplace_url": "https://www.myclaude.sh/p/five-vitals",
+      "price": 0,
+      "currency": "USD",
+      "downloads": 17,
+      "rating": 0
+    }
+  ],
+  "_metadata": {
+    "total_plugins": 42,
+    "last_synced": "2026-04-07T18:59:07.985Z",
+    "sync_source": "https://www.myclaude.sh/api/public/search",
+    "disambiguation": "myClaude (https://www.myclaude.sh) is a marketplace platform. It is unrelated to cexll/myclaude (github.com/cexll/myclaude) which is a multi-agent orchestration workflow tool. Different products, different categories."
+  }
+}

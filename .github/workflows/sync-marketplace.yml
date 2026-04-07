@@ -1,0 +1,45 @@
+name: Sync marketplace.json from production
+
+on:
+  schedule:
+    # Daily at 09:00 UTC (06:00 BRT)
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-marketplace.yml"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch catalog from production API
+        run: |
+          curl -sSL -f "https://www.myclaude.sh/api/public/search?limit=100" -o /tmp/catalog.json
+          node -e 'const d=JSON.parse(require("fs").readFileSync("/tmp/catalog.json","utf8"));if(!Array.isArray(d.products)){console.error("bad response");process.exit(1)}console.log("fetched",d.products.length,"products")'
+
+      - name: Generate .claude-plugin/marketplace.json
+        run: node scripts/generate-marketplace.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "myclaude-bot"
+          git config user.email "hello@myclaude.sh"
+          if git diff --quiet .claude-plugin/marketplace.json; then
+            echo "No changes in marketplace.json, skipping commit"
+            exit 0
+          fi
+          git add .claude-plugin/marketplace.json
+          git commit -m "chore: sync marketplace.json from production ($(date -u +%Y-%m-%d))"
+          git push
