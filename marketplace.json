@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "name": "MyClaude Marketplace",
+  "description": "Curated marketplace for Claude Code — skills, agents, squads, workflows",
+  "url": "https://myclaude.sh",
+  "plugins": [
+    {
+      "name": "oficina-atende",
+      "display_name": "Oficina Atende",
+      "description": "Generates complete WhatsApp customer service scripts for Brazilian auto repair shops and dealerships — from first message to confirmed work order. Includes lead qualification, scheduling, confirmation",
+      "version": "1.0.0",
+      "author": "claudio_felix",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "oficina-atende"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "automotive",
+        "whatsapp",
+        "customer-service",
+        "brazil",
+        "automation",
+        "scheduling"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/oficina-atende",
+      "price": 0
+    }
+  ]
+}
