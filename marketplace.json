@@ -30,6 +30,34 @@
       ],
       "marketplace_url": "https://myclaude.sh/p/oficina-atende",
       "price": 0
+    },
+    {
+      "name": "oficina-fideliza",
+      "display_name": "Oficina Fideliza",
+      "description": "Generates complete automated post-service sequences for Brazilian auto repair shops and dealerships — NPS, future service reminders, no-show recovery, and seasonal alerts. Turns one-time customers int",
+      "version": "1.0.0",
+      "author": "claudio_felix",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "oficina-fideliza"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "automotive",
+        "retention",
+        "whatsapp",
+        "brazil",
+        "nps",
+        "post-service",
+        "customer-success"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/oficina-fideliza",
+      "price": 0
     }
   ]
 }
