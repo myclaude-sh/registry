@@ -5,6 +5,34 @@
   "url": "https://myclaude.sh",
   "plugins": [
     {
+      "name": "offer-engineer-hormozi",
+      "display_name": "Offer Engineer Hormozi",
+      "description": "Engenheiro de Ofertas Antifrágeis — raciocina sobre pricing, value equation e construção de ofertas usando os frameworks de Alex Hormozi",
+      "version": "1.0.0",
+      "author": "vinicius",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "offer-engineer-hormozi"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "offers",
+        "pricing",
+        "business-strategy",
+        "hormozi",
+        "value-equation",
+        "minds",
+        "cognitive"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/offer-engineer-hormozi",
+      "price": 0
+    },
+    {
       "name": "oficina-atende",
       "display_name": "Oficina Atende",
       "description": "Generates complete WhatsApp customer service scripts for Brazilian auto repair shops and dealerships — from first message to confirmed work order. Includes lead qualification, scheduling, confirmation",
