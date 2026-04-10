@@ -279,7 +279,7 @@
     {
       "name": "deep-thinking-minds",
       "display_name": "Deep Thinking Minds",
-      "description": "4 mentes para pensar melhor: Daniel Kahneman (vieses cognitivos), Kapil Gupta (verdade), Ray Kurzweil (exponencial), Jesus Cristo (liderança servidora)",
+      "description": "4 mentes para decisão e pensamento profundo: Daniel Kahneman (vieses/decisão), Kapil Gupta (verdade), Ray Kurzweil (exponencial), Jesus Cristo (liderança servidora). Use when: decisões importantes, cl",
       "version": "1.0.0",
       "author": "vinicius-caetano",
       "license": "MIT",
@@ -289,14 +289,15 @@
         "repo": "deep-thinking-minds"
       },
       "install": {
-        "type": "bundle",
-        "entry": "BUNDLE.md"
+        "type": "squad",
+        "entry": "SQUAD.md"
       },
       "tags": [
         "decision-making",
-        "philosophy",
         "thinking",
         "leadership",
+        "cognitive-bias",
+        "philosophy",
         "futurism"
       ],
       "marketplace_url": "https://myclaude.sh/p/deep-thinking-minds",
