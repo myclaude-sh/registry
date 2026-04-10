@@ -221,6 +221,32 @@
       "price": 49.9
     },
     {
+      "name": "deep-thinking-minds",
+      "display_name": "Deep Thinking Minds",
+      "description": "4 mentes para pensar melhor: Daniel Kahneman (vieses cognitivos), Kapil Gupta (verdade), Ray Kurzweil (exponencial), Jesus Cristo (liderança servidora)",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "deep-thinking-minds"
+      },
+      "install": {
+        "type": "bundle",
+        "entry": "BUNDLE.md"
+      },
+      "tags": [
+        "decision-making",
+        "philosophy",
+        "thinking",
+        "leadership",
+        "futurism"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/deep-thinking-minds",
+      "price": 149
+    },
+    {
       "name": "don-norman",
       "display_name": "Don Norman",
       "description": "Human-centered design evaluator — applies cognitive psychology frameworks to diagnose and fix design problems",
