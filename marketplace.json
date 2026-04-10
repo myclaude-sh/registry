@@ -113,6 +113,32 @@
       "price": 49.9
     },
     {
+      "name": "business-growth-machine",
+      "display_name": "Business Growth Machine",
+      "description": "4 mentes estratégicas para escalar negócios: Paul Graham (startups), Sam Altman (scaling), Napoleon Hill (mindset), Elon Musk (first principles)",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "business-growth-machine"
+      },
+      "install": {
+        "type": "bundle",
+        "entry": "BUNDLE.md"
+      },
+      "tags": [
+        "business",
+        "growth",
+        "startups",
+        "strategy",
+        "entrepreneurship"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/business-growth-machine",
+      "price": 199
+    },
+    {
       "name": "cagan-patton",
       "display_name": "Cagan Patton",
       "description": "Cognitive fusion of Marty Cagan and Jeff Patton — end-to-end product thinking from strategic discovery to incremental delivery",
