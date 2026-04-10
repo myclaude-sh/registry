@@ -115,7 +115,7 @@
     {
       "name": "brasil-digital-pack",
       "display_name": "Brasil Digital Pack",
-      "description": "7 mentes brasileiras para dominar o digital: Thiago Finch (funis), Leandro Ladeira (copy/ads), Jose Amorim (IA), Adriano de Marqui (PKM), Alan Nicolas (IA aplicada), Pedro Valerio (automacao), Joao Lo",
+      "description": "7 mentes brasileiras do digital: Finch (funis), Ladeira (copy/ads), Amorim (IA), De Marqui (PKM), Alan Nicolas (IA aplicada), Valerio (automação), Lozano (arquitetura cognitiva). Use quando: estratégi",
       "version": "1.0.0",
       "author": "vinicius-caetano",
       "license": "MIT",
@@ -125,16 +125,17 @@
         "repo": "brasil-digital-pack"
       },
       "install": {
-        "type": "bundle",
-        "entry": "BUNDLE.md"
+        "type": "squad",
+        "entry": "SQUAD.md"
       },
       "tags": [
-        "brasil",
         "marketing-digital",
-        "ia",
-        "automacao",
-        "copy",
-        "funis"
+        "brasil",
+        "funis",
+        "copywriting",
+        "IA",
+        "automação",
+        "PKM"
       ],
       "marketplace_url": "https://myclaude.sh/p/brasil-digital-pack",
       "price": 299
