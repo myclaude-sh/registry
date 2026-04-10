@@ -113,6 +113,33 @@
       "price": 49.9
     },
     {
+      "name": "cagan-patton",
+      "display_name": "Cagan Patton",
+      "description": "Cognitive fusion of Marty Cagan and Jeff Patton — end-to-end product thinking from strategic discovery to incremental delivery",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "cagan-patton"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "product-management",
+        "strategy",
+        "story-mapping",
+        "minds",
+        "cognitive",
+        "empowered-teams"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/cagan-patton",
+      "price": 49.9
+    },
+    {
       "name": "chris-do",
       "display_name": "Chris Do",
       "description": "Mente cognitiva de Chris Do — value-based pricing, vendas para criativos e posicionamento premium",
