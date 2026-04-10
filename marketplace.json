@@ -441,6 +441,33 @@
       "price": 49.9
     },
     {
+      "name": "kent-beck",
+      "display_name": "Kent Beck",
+      "description": "Software craft mentor — applies TDD, XP values, and evolutionary design to development decisions",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "kent-beck"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "tdd",
+        "testing",
+        "xp",
+        "minds",
+        "cognitive",
+        "software-craft"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/kent-beck",
+      "price": 49.9
+    },
+    {
       "name": "leandro-ladeira",
       "display_name": "Leandro Ladeira",
       "description": "Padroes cognitivos do Leandro Ladeira -- o Motor Perpetuo do marketing digital brasileiro",
