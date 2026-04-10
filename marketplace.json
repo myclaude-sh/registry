@@ -142,7 +142,7 @@
     {
       "name": "business-growth-machine",
       "display_name": "Business Growth Machine",
-      "description": "4 mentes estratégicas para escalar negócios: Paul Graham (startups), Sam Altman (scaling), Napoleon Hill (mindset), Elon Musk (first principles)",
+      "description": "4 mentes estratégicas: Paul Graham (startups), Sam Altman (scaling/AI), Napoleon Hill (mindset), Elon Musk (first principles). Use when: estratégia de crescimento, mentalidade empreendedora, inovação.",
       "version": "1.0.0",
       "author": "vinicius-caetano",
       "license": "MIT",
@@ -152,15 +152,17 @@
         "repo": "business-growth-machine"
       },
       "install": {
-        "type": "bundle",
-        "entry": "BUNDLE.md"
+        "type": "squad",
+        "entry": "SQUAD.md"
       },
       "tags": [
         "business",
         "growth",
-        "startups",
         "strategy",
-        "entrepreneurship"
+        "startups",
+        "scaling",
+        "mindset",
+        "first-principles"
       ],
       "marketplace_url": "https://myclaude.sh/p/business-growth-machine",
       "price": 199
