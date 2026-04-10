@@ -113,6 +113,33 @@
       "price": 49.9
     },
     {
+      "name": "brasil-digital-pack",
+      "display_name": "Brasil Digital Pack",
+      "description": "7 mentes brasileiras para dominar o digital: Thiago Finch (funis), Leandro Ladeira (copy/ads), Jose Amorim (IA), Adriano de Marqui (PKM), Alan Nicolas (IA aplicada), Pedro Valerio (automacao), Joao Lo",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "brasil-digital-pack"
+      },
+      "install": {
+        "type": "bundle",
+        "entry": "BUNDLE.md"
+      },
+      "tags": [
+        "brasil",
+        "marketing-digital",
+        "ia",
+        "automacao",
+        "copy",
+        "funis"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/brasil-digital-pack",
+      "price": 299
+    },
+    {
       "name": "business-growth-machine",
       "display_name": "Business Growth Machine",
       "description": "4 mentes estratégicas para escalar negócios: Paul Graham (startups), Sam Altman (scaling), Napoleon Hill (mindset), Elon Musk (first principles)",
