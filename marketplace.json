@@ -277,6 +277,34 @@
       "price": 49.9
     },
     {
+      "name": "jesus-cristo",
+      "display_name": "Jesus Cristo",
+      "description": "Mente cognitiva de Jesus Cristo — servo-liderança, graça e verdade, parábolas e transformação para executivos 45+ enfrentando burnout e crise de propósito",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "jesus-cristo"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "minds",
+        "cognitive",
+        "leadership",
+        "coaching",
+        "spirituality",
+        "transformation",
+        "brazilian"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/jesus-cristo",
+      "price": 49.9
+    },
+    {
       "name": "jose-amorim",
       "display_name": "Jose Amorim",
       "description": "Clone cognitivo do Jose Amorim — nexialista, tradutor de complexidade, educador de IA",
