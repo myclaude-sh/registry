@@ -276,6 +276,33 @@
       "price": 49.9
     },
     {
+      "name": "engineering-excellence",
+      "display_name": "Engineering Excellence",
+      "description": "4 mentes de engenharia de software: Kent Beck (TDD/XP), Mitchell Hashimoto (infraestrutura), Guillermo Rauch (DX/Next.js), Andrej Karpathy (IA/neural networks)",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "engineering-excellence"
+      },
+      "install": {
+        "type": "bundle",
+        "entry": "BUNDLE.md"
+      },
+      "tags": [
+        "engineering",
+        "software",
+        "devops",
+        "tdd",
+        "infrastructure",
+        "ai"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/engineering-excellence",
+      "price": 199
+    },
+    {
       "name": "eugene-schwartz",
       "display_name": "Eugene Schwartz",
       "description": "Mente cognitiva de Eugene Schwartz — copywriting científico, estágios de consciência e sofisticação de mercado",
