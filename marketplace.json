@@ -5,6 +5,34 @@
   "url": "https://myclaude.sh",
   "plugins": [
     {
+      "name": "chris-do",
+      "display_name": "Chris Do",
+      "description": "Mente cognitiva de Chris Do — value-based pricing, vendas para criativos e posicionamento premium",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "chris-do"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "pricing",
+        "value-based",
+        "design-business",
+        "sales",
+        "creatives",
+        "minds",
+        "cognitive"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/chris-do",
+      "price": 49.9
+    },
+    {
       "name": "daniel-kahneman",
       "display_name": "Daniel Kahneman",
       "description": "Mente cognitiva de Daniel Kahneman — vieses cognitivos, System 1/2, e melhoria de decisoes atraves de design de sistemas",
