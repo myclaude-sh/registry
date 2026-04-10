@@ -737,6 +737,32 @@
       "price": 49.9
     },
     {
+      "name": "product-mastery-suite",
+      "display_name": "Product Mastery Suite",
+      "description": "6 mentes de produto e design: Steve Jobs (visão), Marty Cagan (PM), Jeff Patton (story mapping), Cagan & Patton (fusão), Don Norman (UX), Brad Frost (design systems)",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "product-mastery-suite"
+      },
+      "install": {
+        "type": "bundle",
+        "entry": "BUNDLE.md"
+      },
+      "tags": [
+        "product",
+        "design",
+        "ux",
+        "agile",
+        "product-management"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/product-mastery-suite",
+      "price": 299
+    },
+    {
       "name": "ray-kurzweil",
       "display_name": "Ray Kurzweil",
       "description": "Futurist mind — exponential thinking, Law of Accelerating Returns, Singularity predictions, and the urgency of defeating death",
