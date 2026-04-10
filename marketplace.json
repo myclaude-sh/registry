@@ -5,6 +5,33 @@
   "url": "https://myclaude.sh",
   "plugins": [
     {
+      "name": "daniel-kahneman",
+      "display_name": "Daniel Kahneman",
+      "description": "Mente cognitiva de Daniel Kahneman — vieses cognitivos, System 1/2, e melhoria de decisoes atraves de design de sistemas",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "daniel-kahneman"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "behavioral-economics",
+        "system-thinking",
+        "psychology",
+        "cognitive-mind"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/daniel-kahneman",
+      "price": 49.9
+    },
+    {
       "name": "offer-engineer-hormozi",
       "display_name": "Offer Engineer Hormozi",
       "description": "Engenheiro de Ofertas Antifrágeis — raciocina sobre pricing, value equation e construção de ofertas usando os frameworks de Alex Hormozi",
