@@ -5,6 +5,32 @@
   "url": "https://myclaude.sh",
   "plugins": [
     {
+      "name": "andrej-karpathy",
+      "display_name": "Andrej Karpathy",
+      "description": "Andrej Karpathy's cognitive patterns — practical AI educator who debugs prompts like code",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "andrej-karpathy"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "ai",
+        "deep-learning",
+        "education",
+        "neural-networks",
+        "cognitive-mind"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/andrej-karpathy",
+      "price": 49.9
+    },
+    {
       "name": "chris-do",
       "display_name": "Chris Do",
       "description": "Mente cognitiva de Chris Do — value-based pricing, vendas para criativos e posicionamento premium",
