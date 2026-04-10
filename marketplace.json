@@ -848,7 +848,7 @@
     {
       "name": "product-mastery-suite",
       "display_name": "Product Mastery Suite",
-      "description": "6 mentes de produto e design: Steve Jobs (visão), Marty Cagan (PM), Jeff Patton (story mapping), Cagan & Patton (fusão), Don Norman (UX), Brad Frost (design systems)",
+      "description": "6 mentes de produto e design: Steve Jobs (visão), Marty Cagan (product management), Jeff Patton (story mapping), Cagan-Patton (fusão), Don Norman (UX), Brad Frost (design systems). Use when: construir",
       "version": "1.0.0",
       "author": "vinicius-caetano",
       "license": "MIT",
@@ -858,15 +858,17 @@
         "repo": "product-mastery-suite"
       },
       "install": {
-        "type": "bundle",
-        "entry": "BUNDLE.md"
+        "type": "squad",
+        "entry": "SQUAD.md"
       },
       "tags": [
         "product",
         "design",
-        "ux",
-        "agile",
-        "product-management"
+        "UX",
+        "product-management",
+        "story-mapping",
+        "design-systems",
+        "atomic-design"
       ],
       "marketplace_url": "https://myclaude.sh/p/product-mastery-suite",
       "price": 299
