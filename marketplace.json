@@ -112,6 +112,34 @@
       "price": 49.9
     },
     {
+      "name": "don-norman",
+      "display_name": "Don Norman",
+      "description": "Human-centered design evaluator — applies cognitive psychology frameworks to diagnose and fix design problems",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "don-norman"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "ux",
+        "design",
+        "cognitive-psychology",
+        "minds",
+        "human-centered",
+        "affordances",
+        "signifiers"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/don-norman",
+      "price": 49.9
+    },
+    {
       "name": "eugene-schwartz",
       "display_name": "Eugene Schwartz",
       "description": "Mente cognitiva de Eugene Schwartz — copywriting científico, estágios de consciência e sofisticação de mercado",
