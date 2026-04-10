@@ -140,6 +140,33 @@
       "price": 49.9
     },
     {
+      "name": "elon-musk",
+      "display_name": "Elon Musk",
+      "description": "First Principles & The Algorithm Mind — raciocina sobre engenharia, inovacao e execucao usando os frameworks cognitivos de Elon Musk",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "elon-musk"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "engineering",
+        "first-principles",
+        "minds",
+        "innovation",
+        "the-algorithm",
+        "manufacturing"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/elon-musk",
+      "price": 49.9
+    },
+    {
       "name": "eugene-schwartz",
       "display_name": "Eugene Schwartz",
       "description": "Mente cognitiva de Eugene Schwartz — copywriting científico, estágios de consciência e sofisticação de mercado",
