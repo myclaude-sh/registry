@@ -331,6 +331,32 @@
       "price": 49.9
     },
     {
+      "name": "pedro-valerio",
+      "display_name": "Pedro Valerio",
+      "description": "Padroes cognitivos do Pedro Valerio -- systems architect, process engineer, automacao radical",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "pedro-valerio"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "systems",
+        "automation",
+        "process-engineering",
+        "brasil",
+        "cognitive-mind"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/pedro-valerio",
+      "price": 49.9
+    },
+    {
       "name": "seth-godin",
       "display_name": "Seth Godin",
       "description": "Mente cognitiva de Seth Godin — posicionamento de marca, notabilidade e marketing como generosidade",
