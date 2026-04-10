@@ -5,6 +5,34 @@
   "url": "https://myclaude.sh",
   "plugins": [
     {
+      "name": "adriano-de-marqui",
+      "display_name": "Adriano De Marqui",
+      "description": "Curador-educador que transforma 26 anos de tech e 20 de ensino em sistemas executáveis — especialista em Segundo Cérebro, PKM, Obsidian e IA para negócios",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "adriano-de-marqui"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "minds",
+        "cognitive",
+        "pkm",
+        "obsidian",
+        "education",
+        "brazilian",
+        "frameworks"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/adriano-de-marqui",
+      "price": 49.9
+    },
+    {
       "name": "andrej-karpathy",
       "display_name": "Andrej Karpathy",
       "description": "Andrej Karpathy's cognitive patterns — practical AI educator who debugs prompts like code",
