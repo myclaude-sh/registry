@@ -492,6 +492,33 @@
       "price": 49.9
     },
     {
+      "name": "sam-altman",
+      "display_name": "Sam Altman",
+      "description": "Exponential Truth-Seeking Mind — raciocina sobre startups, AGI, crescimento exponencial e decisoes de longo prazo usando os frameworks cognitivos de Sam Altman",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "sam-altman"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "startup",
+        "exponential",
+        "agi",
+        "minds",
+        "growth",
+        "truth-seeking"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/sam-altman",
+      "price": 49.9
+    },
+    {
       "name": "seth-godin",
       "display_name": "Seth Godin",
       "description": "Mente cognitiva de Seth Godin — posicionamento de marca, notabilidade e marketing como generosidade",
