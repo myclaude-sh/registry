@@ -902,7 +902,7 @@
     {
       "name": "sales-persuasion-arsenal",
       "display_name": "Sales Persuasion Arsenal",
-      "description": "4 mentes de vendas e persuasão: Jeremy Miner (NEPQ), Eugene Schwartz (copywriting), Taki Moore (coaching), Seth Godin (marketing)",
+      "description": "4 mentes de vendas e persuasão: Jeremy Miner (NEPQ), Eugene Schwartz (copywriting), Taki Moore (coaching business), Seth Godin (marketing/tribes). Use when: vender mais, persuadir melhor, criar copy, ",
       "version": "1.0.0",
       "author": "vinicius-caetano",
       "license": "MIT",
@@ -912,15 +912,17 @@
         "repo": "sales-persuasion-arsenal"
       },
       "install": {
-        "type": "bundle",
-        "entry": "BUNDLE.md"
+        "type": "squad",
+        "entry": "SQUAD.md"
       },
       "tags": [
         "sales",
+        "persuasion",
         "copywriting",
         "marketing",
-        "persuasion",
-        "closing"
+        "coaching",
+        "NEPQ",
+        "tribes"
       ],
       "marketplace_url": "https://myclaude.sh/p/sales-persuasion-arsenal",
       "price": 249
