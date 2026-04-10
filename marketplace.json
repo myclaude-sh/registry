@@ -360,7 +360,7 @@
     {
       "name": "engineering-excellence",
       "display_name": "Engineering Excellence",
-      "description": "4 mentes de engenharia de software: Kent Beck (TDD/XP), Mitchell Hashimoto (infraestrutura), Guillermo Rauch (DX/Next.js), Andrej Karpathy (IA/neural networks)",
+      "description": "4 mentes de engenharia: Kent Beck (TDD/XP), Mitchell Hashimoto (infraestrutura), Guillermo Rauch (DX/Next.js), Andrej Karpathy (IA/ML). Use when: decisões de arquitetura, qualidade de código, infraest",
       "version": "1.0.0",
       "author": "vinicius-caetano",
       "license": "MIT",
@@ -370,16 +370,17 @@
         "repo": "engineering-excellence"
       },
       "install": {
-        "type": "bundle",
-        "entry": "BUNDLE.md"
+        "type": "squad",
+        "entry": "SQUAD.md"
       },
       "tags": [
         "engineering",
-        "software",
-        "devops",
-        "tdd",
+        "TDD",
         "infrastructure",
-        "ai"
+        "DX",
+        "AI",
+        "ML",
+        "software-craftsmanship"
       ],
       "marketplace_url": "https://myclaude.sh/p/engineering-excellence",
       "price": 199
