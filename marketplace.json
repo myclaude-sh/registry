@@ -195,6 +195,32 @@
       "price": 49.9
     },
     {
+      "name": "leandro-ladeira",
+      "display_name": "Leandro Ladeira",
+      "description": "Padroes cognitivos do Leandro Ladeira -- o Motor Perpetuo do marketing digital brasileiro",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "leandro-ladeira"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "marketing-digital",
+        "copywriting",
+        "brasil",
+        "vendas",
+        "cognitive-mind"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/leandro-ladeira",
+      "price": 49.9
+    },
+    {
       "name": "offer-engineer-hormozi",
       "display_name": "Offer Engineer Hormozi",
       "description": "Engenheiro de Ofertas Antifrágeis — raciocina sobre pricing, value equation e construção de ofertas usando os frameworks de Alex Hormozi",
