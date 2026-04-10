@@ -305,6 +305,34 @@
       ],
       "marketplace_url": "https://myclaude.sh/p/taki-moore",
       "price": 49.9
+    },
+    {
+      "name": "thiago-finch",
+      "display_name": "Thiago Finch",
+      "description": "Clone cognitivo do Thiago Finch — mentalidade outlier, funis de vendas e liberdade financeira",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "thiago-finch"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "funnels",
+        "marketing-digital",
+        "outlier-mindset",
+        "branding",
+        "business-strategy",
+        "minds",
+        "cognitive"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/thiago-finch",
+      "price": 49.9
     }
   ]
 }
