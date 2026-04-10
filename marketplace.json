@@ -168,6 +168,33 @@
       "price": 49.9
     },
     {
+      "name": "jeff-patton",
+      "display_name": "Jeff Patton",
+      "description": "Story Mapping & Outcome-Driven Product Mind — raciocina sobre decomposicao visual, user story mapping, e gestao de tensoes produtivas usando os frameworks de Jeff Patton",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "jeff-patton"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "product-management",
+        "story-mapping",
+        "user-stories",
+        "minds",
+        "outcome-driven",
+        "visual-thinking"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/jeff-patton",
+      "price": 49.9
+    },
+    {
       "name": "jeremy-miner",
       "display_name": "Jeremy Miner",
       "description": "Mente cognitiva de Jeremy Miner — metodologia NEPQ, vendas baseadas em ciencia comportamental, e coaching de vendas",
