@@ -31,6 +31,32 @@
       "price": 49.9
     },
     {
+      "name": "brad-frost",
+      "display_name": "Brad Frost",
+      "description": "Design Systems & Atomic Design expert — transforms interface chaos into scalable component systems through evidence-based methodology",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "brad-frost"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "design-systems",
+        "atomic-design",
+        "components",
+        "ui",
+        "cognitive-mind"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/brad-frost",
+      "price": 49.9
+    },
+    {
       "name": "chris-do",
       "display_name": "Chris Do",
       "description": "Mente cognitiva de Chris Do — value-based pricing, vendas para criativos e posicionamento premium",
