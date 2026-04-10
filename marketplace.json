@@ -467,6 +467,33 @@
       "price": 49.9
     },
     {
+      "name": "mitchell-hashimoto",
+      "display_name": "Mitchell Hashimoto",
+      "description": "Infrastructure as Code thinker — applies Tao of HashiCorp principles to any system design",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "mitchell-hashimoto"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "infrastructure",
+        "devops",
+        "terraform",
+        "minds",
+        "cognitive",
+        "system-design"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/mitchell-hashimoto",
+      "price": 49.9
+    },
+    {
       "name": "napoleon-hill",
       "display_name": "Napoleon Hill",
       "description": "Cognitive clone of Napoleon Hill — success philosophy, 13 Principles, systematic achievement through spiritual-practical integration",
