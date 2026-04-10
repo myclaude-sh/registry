@@ -33,6 +33,34 @@
       "price": 49.9
     },
     {
+      "name": "alan-nicolas",
+      "display_name": "Alan Nicolas",
+      "description": "O Filosofo-Arquiteto Sistematico — raciocina sobre IA, consciencia, negocios e transformacao pessoal usando Clareza Radical, Pareto ao Cubo e arquitetura dual de personas",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "alan-nicolas"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "minds",
+        "cognitive",
+        "ia-strategy",
+        "consciousness",
+        "frameworks",
+        "pareto",
+        "brazilian"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/alan-nicolas",
+      "price": 49.9
+    },
+    {
       "name": "andrej-karpathy",
       "display_name": "Andrej Karpathy",
       "description": "Andrej Karpathy's cognitive patterns — practical AI educator who debugs prompts like code",
