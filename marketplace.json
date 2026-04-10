@@ -278,6 +278,33 @@
       "price": 49.9
     },
     {
+      "name": "guillermo-rauch",
+      "display_name": "Guillermo Rauch",
+      "description": "Developer Experience architect — applies DX-first thinking and AX (AI Experience) paradigm to product decisions",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "guillermo-rauch"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "developer-experience",
+        "frontend",
+        "nextjs",
+        "minds",
+        "cognitive",
+        "ai-ux"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/guillermo-rauch",
+      "price": 49.9
+    },
+    {
       "name": "jeff-patton",
       "display_name": "Jeff Patton",
       "description": "Story Mapping & Outcome-Driven Product Mind — raciocina sobre decomposicao visual, user story mapping, e gestao de tensoes produtivas usando os frameworks de Jeff Patton",
