@@ -548,6 +548,34 @@
       "price": 49.9
     },
     {
+      "name": "ray-kurzweil",
+      "display_name": "Ray Kurzweil",
+      "description": "Futurist mind — exponential thinking, Law of Accelerating Returns, Singularity predictions, and the urgency of defeating death",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "ray-kurzweil"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "minds",
+        "cognitive",
+        "futurism",
+        "ai",
+        "singularity",
+        "exponential",
+        "longevity"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/ray-kurzweil",
+      "price": 49.9
+    },
+    {
       "name": "sam-altman",
       "display_name": "Sam Altman",
       "description": "Exponential Truth-Seeking Mind — raciocina sobre startups, AGI, crescimento exponencial e decisoes de longo prazo usando os frameworks cognitivos de Sam Altman",
