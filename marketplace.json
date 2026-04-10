@@ -169,6 +169,32 @@
       "price": 49.9
     },
     {
+      "name": "kapil-gupta",
+      "display_name": "Kapil Gupta",
+      "description": "Dr. Kapil Gupta's cognitive patterns -- physician-philosopher in existential crusade for Truth",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "kapil-gupta"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "philosophy",
+        "truth",
+        "mastery",
+        "physician",
+        "cognitive-mind"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/kapil-gupta",
+      "price": 49.9
+    },
+    {
       "name": "offer-engineer-hormozi",
       "display_name": "Offer Engineer Hormozi",
       "description": "Engenheiro de Ofertas Antifrágeis — raciocina sobre pricing, value equation e construção de ofertas usando os frameworks de Alex Hormozi",
