@@ -277,6 +277,34 @@
       ],
       "marketplace_url": "https://myclaude.sh/p/steve-jobs",
       "price": 49.9
+    },
+    {
+      "name": "taki-moore",
+      "display_name": "Taki Moore",
+      "description": "Mente cognitiva de Taki Moore — arquitetura de negócios de coaching, ADDS framework e modelo DECIDE",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "taki-moore"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "coaching",
+        "business-architecture",
+        "adds-framework",
+        "scaling",
+        "group-coaching",
+        "minds",
+        "cognitive"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/taki-moore",
+      "price": 49.9
     }
   ]
 }
