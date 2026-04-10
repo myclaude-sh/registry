@@ -115,6 +115,34 @@
       "price": 49.9
     },
     {
+      "name": "jose-amorim",
+      "display_name": "Jose Amorim",
+      "description": "Clone cognitivo do Jose Amorim — nexialista, tradutor de complexidade, educador de IA",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "jose-amorim"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "nexialismo",
+        "ai-education",
+        "complexity",
+        "neurodiversity",
+        "content-creation",
+        "minds",
+        "cognitive"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/jose-amorim",
+      "price": 49.9
+    },
+    {
       "name": "offer-engineer-hormozi",
       "display_name": "Offer Engineer Hormozi",
       "description": "Engenheiro de Ofertas Antifrágeis — raciocina sobre pricing, value equation e construção de ofertas usando os frameworks de Alex Hormozi",
