@@ -467,6 +467,33 @@
       "price": 49.9
     },
     {
+      "name": "napoleon-hill",
+      "display_name": "Napoleon Hill",
+      "description": "Cognitive clone of Napoleon Hill — success philosophy, 13 Principles, systematic achievement through spiritual-practical integration",
+      "version": "1.0.0",
+      "author": "vinicius-caetano",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "napoleon-hill"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "success",
+        "achievement",
+        "mindset",
+        "minds",
+        "cognitive",
+        "goal-setting"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/napoleon-hill",
+      "price": 49.9
+    },
+    {
       "name": "offer-engineer-hormozi",
       "display_name": "Offer Engineer Hormozi",
       "description": "Engenheiro de Ofertas Antifrágeis — raciocina sobre pricing, value equation e construção de ofertas usando os frameworks de Alex Hormozi",
