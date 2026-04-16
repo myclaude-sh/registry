@@ -141,6 +141,36 @@
       "price": 299
     },
     {
+      "name": "build-verify-seal",
+      "display_name": "Build-Verify-Seal",
+      "description": "Anti-hallucination engineering framework for Claude Code. 3-phase pipeline: Architecture (6 Questions) > Engineering (Build-Verify-Seal) > Verification (XP Scorecard). Enforces contracts, bottom-up bu",
+      "version": "1.0.0",
+      "author": "cognittusai",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "build-verify-seal"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "engineering",
+        "anti-hallucination",
+        "methodology",
+        "architecture",
+        "quality",
+        "build-system",
+        "contracts",
+        "verification",
+        "scorecard"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/build-verify-seal",
+      "price": 0
+    },
+    {
       "name": "business-growth-machine",
       "display_name": "Business Growth Machine",
       "description": "4 mentes estratégicas: Paul Graham (startups), Sam Altman (scaling/AI), Napoleon Hill (mindset), Elon Musk (first principles). Use when: estratégia de crescimento, mentalidade empreendedora, inovação.",
