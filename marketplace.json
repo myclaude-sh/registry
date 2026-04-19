@@ -1099,6 +1099,33 @@
       ],
       "marketplace_url": "https://myclaude.sh/p/thiago-finch",
       "price": 49.9
+    },
+    {
+      "name": "vault-backup",
+      "display_name": "Vault Backup",
+      "description": "Universal secure backup — encrypt (AES-256), compress (zstd), deduplicate, verify integrity. Backup project files, databases, .claude/ setup, configs. Incremental, secrets-aware, multi-destination.",
+      "version": "1.0.0",
+      "author": "cognittusai",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "vault-backup"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "backup",
+        "security",
+        "encryption",
+        "compression",
+        "devops",
+        "disaster-recovery"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/vault-backup",
+      "price": 0
     }
   ]
 }
