@@ -336,6 +336,35 @@
       "price": 149
     },
     {
+      "name": "docforge-llms",
+      "display_name": "Docforge Llms",
+      "description": "Project canonical Markdown docs into AI-native projections — llms.txt (Howard 2024 spec), llms-full.txt (segmented), AGENTS.md (AAIF/Linux Foundation Dec 2025), CLAUDE.md (Anthropic verbatim, ≤200 lin",
+      "version": "0.1.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "docforge-llms"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "llms.txt",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "MCP",
+        "RAG",
+        "prompt-cache",
+        "documentation",
+        "dual-output"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/docforge-llms",
+      "price": 0
+    },
+    {
       "name": "don-norman",
       "display_name": "Don Norman",
       "description": "Human-centered design evaluator — applies cognitive psychology frameworks to diagnose and fix design problems",
