@@ -365,6 +365,36 @@
       "price": 0
     },
     {
+      "name": "docforge-sync",
+      "display_name": "Docforge Sync",
+      "description": "Documentation drift detection + verification — computes DDS-1 (6-component Doc Drift Score), runs doctest dispatch (pytest-markdown-docs / cargo test --doc / mdbook test / Go testable examples), Vale ",
+      "version": "0.1.0",
+      "author": "l0z4n0",
+      "license": "Proprietary",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "docforge-sync"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "documentation",
+        "drift-detection",
+        "DDS-1",
+        "doctest",
+        "Vale",
+        "lychee",
+        "schema-derive",
+        "tree-sitter",
+        "frontmatter"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/docforge-sync",
+      "price": 0
+    },
+    {
       "name": "don-norman",
       "display_name": "Don Norman",
       "description": "Human-centered design evaluator — applies cognitive psychology frameworks to diagnose and fix design problems",
