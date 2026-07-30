@@ -146,7 +146,7 @@
       "description": "Anti-hallucination engineering framework for Claude Code. 3-phase pipeline: Architecture (6 Questions) > Engineering (Build-Verify-Seal) > Verification (XP Scorecard). Enforces contracts, bottom-up bu",
       "version": "1.0.0",
       "author": "cognittusai",
-      "license": "MIT",
+      "license": "Proprietary",
       "source": {
         "type": "github",
         "owner": "myclaude-sh",
@@ -168,7 +168,7 @@
         "scorecard"
       ],
       "marketplace_url": "https://myclaude.sh/p/build-verify-seal",
-      "price": 0
+      "price": 19.9
     },
     {
       "name": "business-growth-machine",
