@@ -923,8 +923,8 @@
         "repo": "paul-graham"
       },
       "install": {
-        "type": "skill",
-        "entry": "SKILL.md"
+        "type": "mind",
+        "entry": "AGENT.md"
       },
       "tags": [
         "startups",
