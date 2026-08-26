@@ -83,6 +83,31 @@
       "price": 0
     },
     {
+      "name": "agent-tool-call-resilience-engineer",
+      "display_name": "Agent Tool Call Resilience Engineer",
+      "description": "Teaches AI coding agents to handle API and tool call failures gracefully using production-grade resilience patterns: exponential backoff with jitter, circuit breakers, timeout management, ra",
+      "version": "2.1.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "agent-tool-call-resilience-engineer"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "agent-reliability",
+        "resilience",
+        "error-handling",
+        "devops"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/agent-tool-call-resilience-engineer",
+      "price": 0
+    },
+    {
       "name": "alan-nicolas",
       "display_name": "Alan Nicolas",
       "description": "O Filosofo-Arquiteto Sistematico — raciocina sobre IA, consciencia, negocios e transformacao pessoal usando Clareza Radical, Pareto ao Cubo e arquitetura dual de personas",
