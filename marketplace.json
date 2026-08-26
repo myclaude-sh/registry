@@ -1228,6 +1228,31 @@
       "price": 49.9
     },
     {
+      "name": "sql-query-optimizer",
+      "display_name": "Sql Query Optimizer",
+      "description": "Teaches agents to analyze, diagnose, and rewrite SQL queries for optimal performance across PostgreSQL, MySQL, SQLite, and SQL Server. Covers EXPLAIN plan interpretation, index strategy, ant",
+      "version": "2.1.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "sql-query-optimizer"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "sql",
+        "database",
+        "query-optimization",
+        "performance"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/sql-query-optimizer",
+      "price": 0
+    },
+    {
       "name": "steve-jobs",
       "display_name": "Steve Jobs",
       "description": "Mente cognitiva de Steve Jobs — avaliacao de produto, design por subtracao, e lideranca visionaria",
