@@ -329,6 +329,31 @@
       "price": 49.9
     },
     {
+      "name": "ci-cd-pipeline-validator-pro",
+      "display_name": "Ci Cd Pipeline Validator Pro",
+      "description": "Enterprise-grade CI/CD pipeline validation across GitHub Actions, GitLab CI, CircleCI, Jenkins, and Azure DevOps. Includes a comprehensive pipeline security scanner, performance profiler, co",
+      "version": "2.1.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "ci-cd-pipeline-validator-pro"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "ci-cd",
+        "devops",
+        "security",
+        "automation"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/ci-cd-pipeline-validator-pro",
+      "price": 0
+    },
+    {
       "name": "creative-business",
       "display_name": "Creative Business",
       "description": "4 minds for creative business: Chris Do (value-based pricing), Seth Godin (marketing/brand), Brad Frost (design systems), Don Norman (UX design). Use when: building, pricing, or scaling a creative bus",
