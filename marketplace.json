@@ -992,6 +992,32 @@
       "price": 299
     },
     {
+      "name": "python-trading-toolkit-pro",
+      "display_name": "Python Trading Toolkit Pro",
+      "description": "Teaches AI coding agents to build production-grade Python trading tools: portfolio optimization, risk metrics, backtesting frameworks, and live trading connectors. Pro version adds real-time",
+      "version": "2.0.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "python-trading-toolkit-pro"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "trading",
+        "python",
+        "quant",
+        "backtesting",
+        "finance"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/python-trading-toolkit-pro",
+      "price": 0
+    },
+    {
       "name": "ray-kurzweil",
       "display_name": "Ray Kurzweil",
       "description": "Futurist mind — exponential thinking, Law of Accelerating Returns, Singularity predictions, and the urgency of defeating death",
