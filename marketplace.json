@@ -1308,6 +1308,31 @@
       "price": 49.9
     },
     {
+      "name": "test-coverage-auditor-pro",
+      "display_name": "Test Coverage Auditor Pro",
+      "description": "Premium toolkit for analyzing, measuring, and improving test coverage across your codebase. Adds mutation testing, threshold enforcement, CI integration templates, and coverage gap analysis",
+      "version": "2.1.1",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "test-coverage-auditor-pro"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "testing",
+        "coverage",
+        "qa",
+        "code-quality"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/test-coverage-auditor-pro",
+      "price": 0
+    },
+    {
       "name": "thiago-finch",
       "display_name": "Thiago Finch",
       "description": "Clone cognitivo do Thiago Finch — mentalidade outlier, funis de vendas e liberdade financeira",
