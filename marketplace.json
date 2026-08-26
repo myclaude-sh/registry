@@ -33,6 +33,31 @@
       "price": 49.9
     },
     {
+      "name": "agent-loop-guardian-pro",
+      "display_name": "Agent Loop Guardian Pro",
+      "description": "Pro version of agent-loop-guardian. Upgrade from the free version for advanced features: configurable detection thresholds per project, a standalone watchdog CLI that detects loops in live a",
+      "version": "2.1.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "agent-loop-guardian-pro"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "agent-reliability",
+        "loop-detection",
+        "monitoring",
+        "devops"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/agent-loop-guardian-pro",
+      "price": 0
+    },
+    {
       "name": "alan-nicolas",
       "display_name": "Alan Nicolas",
       "description": "O Filosofo-Arquiteto Sistematico — raciocina sobre IA, consciencia, negocios e transformacao pessoal usando Clareza Radical, Pareto ao Cubo e arquitetura dual de personas",
