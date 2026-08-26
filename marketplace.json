@@ -58,6 +58,31 @@
       "price": 0
     },
     {
+      "name": "agent-rule-compliance-auditor",
+      "display_name": "Agent Rule Compliance Auditor",
+      "description": "Teaches AI coding agents to audit their own CLAUDE.md, cursor rules, and project config files for structural flaws that cause rule non-compliance. Diagnoses WHY agents ignore rules (ambiguit",
+      "version": "2.1.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "agent-rule-compliance-auditor"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "agent-reliability",
+        "rule-compliance",
+        "config-audit",
+        "claude-code"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/agent-rule-compliance-auditor",
+      "price": 0
+    },
+    {
       "name": "alan-nicolas",
       "display_name": "Alan Nicolas",
       "description": "O Filosofo-Arquiteto Sistematico — raciocina sobre IA, consciencia, negocios e transformacao pessoal usando Clareza Radical, Pareto ao Cubo e arquitetura dual de personas",
