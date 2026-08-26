@@ -874,6 +874,31 @@
       "price": 49.9
     },
     {
+      "name": "merge-conflict-resolver-pro",
+      "display_name": "Merge Conflict Resolver Pro",
+      "description": "Production-grade merge conflict resolution for AI coding agents. Resolves complex multi-file merge conflicts with semantic understanding, conflict cause analysis, safety verification, and au",
+      "version": "2.3.0",
+      "author": "timoranjes",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "merge-conflict-resolver-pro"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "git",
+        "merge-conflict",
+        "dev-workflow",
+        "code-quality"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/merge-conflict-resolver-pro",
+      "price": 0
+    },
+    {
       "name": "mitchell-hashimoto",
       "display_name": "Mitchell Hashimoto",
       "description": "Infrastructure as Code thinker — applies Tao of HashiCorp principles to any system design",
