@@ -162,6 +162,37 @@
       "price": 49.9
     },
     {
+      "name": "aws-ir-lite",
+      "display_name": "AWS IR Lite: Free GuardDuty Finding Triage",
+      "description": "Free GuardDuty triage: paste a finding, get a verdict, false-positive checks, MITRE ATT&CK mapping and read-only next steps. No AWS access needed.",
+      "version": "1.0.1",
+      "author": "ritvik_indupuri",
+      "license": "MIT",
+      "source": {
+        "type": "github",
+        "owner": "myclaude-sh",
+        "repo": "aws-ir-lite"
+      },
+      "install": {
+        "type": "skill",
+        "entry": "SKILL.md"
+      },
+      "tags": [
+        "aws",
+        "security",
+        "incident-response",
+        "guardduty",
+        "cloudtrail",
+        "dfir",
+        "soc",
+        "mitre-attack",
+        "iam",
+        "cloud-security"
+      ],
+      "marketplace_url": "https://myclaude.sh/p/aws-ir-lite",
+      "price": 0
+    },
+    {
       "name": "brad-frost",
       "display_name": "Brad Frost",
       "description": "Design Systems & Atomic Design expert — transforms interface chaos into scalable component systems through evidence-based methodology",
